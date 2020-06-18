@@ -1,1 +1,1 @@
-web: docker run -dp $PORT:$PORT -e KEYCLOAK_USER="admin" -e KEYCLOAK_PASSWORD="admin" registry.heroku.com/keycloak-oidc
+web: docker run -d -e KEYCLOAK_USER="admin" -e KEYCLOAK_PASSWORD="admin" registry.heroku.com/keycloak-oidc
